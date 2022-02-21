@@ -16,4 +16,8 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
     "bootstrap-icons": "^1.8.1",
     "font-awesome": "^4.7.0",
 
+## Preview Online
+
+https://angular-bootstrap-starter-kit.vercel.app/
+
 
