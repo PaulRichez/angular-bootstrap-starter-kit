@@ -10,10 +10,10 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app 
 
 Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
+    "font-awesome": "^4.7.0",
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
