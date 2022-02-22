@@ -33,7 +33,17 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "src/themes/light.scss",
+                "bundleName": "light",
+                "inject": true
+              },
+              {
+                "input": "src/themes/united.scss",
+                "bundleName": "united",
+                "inject": false
+              }
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
