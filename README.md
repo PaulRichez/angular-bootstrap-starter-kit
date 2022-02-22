@@ -14,7 +14,6 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.8.1",
-    "font-awesome": "^4.7.0",
 
 ## Preview Online
 
