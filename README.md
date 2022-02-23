@@ -14,6 +14,18 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.8.1",
+    "@ng-bootstrap/ng-bootstrap": "^12.0.0",
+    "ngx-bootstrap": "^8.0.0",
+
+## Bug know
+
+Tooltip and popover doesn't work with natif Bootstrap
+
+## Remove Ngx-boostrap or Ng-Boostrap for use it
+
+1. Delete from package.json `ngx-boostrap` for delete ngxBoostrap or `@ng-bootstrap/ng-bootstrap` for remove ngBoostrap
+2. Remove pages folder
+3. Add to app.module.ts the good import
 
 ## Preview Online
 
