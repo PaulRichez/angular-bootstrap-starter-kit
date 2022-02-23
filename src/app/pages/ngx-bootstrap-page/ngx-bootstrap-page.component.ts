@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-ngx-bootstrap-page',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ngx-bootstrap-page.component.scss']
 })
 export class NgxBootstrapPageComponent implements OnInit {
-
-  constructor() { }
+  modalRef?: BsModalRef;
+  constructor(private modalService: BsModalService) { }
 
   ngOnInit(): void {
   }
-
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template);
+  }
 }
