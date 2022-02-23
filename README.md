@@ -4,7 +4,7 @@ This project can be used for start an Angular project with full Bootstrap
 
 ## Development server
 
-Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server.
 
 ## Build
 
@@ -19,13 +19,13 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
 ## Bug know
 
-Tooltip and popover doesn't work with natif Bootstrap
+Tooltip and popover doesn't work with natif Bootstrap.
 
 ## Remove Ngx-boostrap or Ng-Boostrap for use it
 
 1. Delete from package.json `ngx-boostrap` for delete ngxBoostrap or `@ng-bootstrap/ng-bootstrap` for remove ngBoostrap
 2. Remove pages folder
-3. Add to app.module.ts the good import
+3. Add to app.module.ts the good import and deletes routes from app-routing.module.ts 
 
 ## Preview Online
 
